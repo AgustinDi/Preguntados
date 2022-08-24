@@ -1,0 +1,37 @@
+#navbar {
+    width: 100vw;
+    background-color: rgb(45, 53, 78);
+}
+
+#title {
+    margin-left: 10px;
+    font-size: larger;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right {
+    display: flex;
+    justify-content: baseline;
+}
+
+#right * {
+    margin-right: 10px;
+}
+
+#reload {
+    background: transparent;
+    border: none;
+    color: none;
+}
+
+#reload:hover {
+    cursor: pointer;
+}
+
+img {
+    margin: 0 !important;
+}

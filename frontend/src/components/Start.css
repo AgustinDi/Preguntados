@@ -1,0 +1,12 @@
+#start {
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(172, 199, 154);
+    border-radius: 5px;
+}
+
+#start:hover {
+  cursor: pointer;
+}
+  

@@ -1,0 +1,40 @@
+h3 {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.answerCard:hover {
+    cursor: pointer;
+}
+
+.answerCard:active {
+    background-color: green;
+}
+
+.answerCard {
+    border: none;
+    height: 30px;
+    width: 90%;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(172, 199, 154);
+}
+
+#downInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+#downInfo button {
+    width: min-content;
+}
+
+#actualReward {
+    color: white;
+}
